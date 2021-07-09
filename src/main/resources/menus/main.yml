@@ -1,0 +1,18 @@
+Nothing:
+  type: WEB
+  name: '&cVazio'
+  slot: 22
+
+Inventory:
+  title: "Keys"
+  size: 54
+  key-slots: 11, 12, 13, 14, 15
+  items:
+    1:
+      action: REWARDS
+      type: CHEST
+      name: '&aRecompensas'
+      lore:
+        - '&7Clique para ver'
+        - '&7suas recompensas!'
+      slot: 49

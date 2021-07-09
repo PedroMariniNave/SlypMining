@@ -1,0 +1,34 @@
+MySQL:
+  enabled: false
+  host: 'localhost'
+  database: 'db'
+  username: 'user'
+  password: 'pass'
+  port: 3306
+
+Settings:
+  command: 'crates'
+  aliases: []
+  keys:
+    give: 'GIVE'
+
+Messages:
+  offline-player: '&cEsse jogador está offline!'
+  invalid-amount: '&cA quantia informada é inválida!'
+  invalid-key: '&cEssa chave virtual não existe!'
+  successful-key-collect: '&7Você coletou &f{amount} &7keys!'
+  successful-reward-collect: '&7Recompensa coletada: {reward}&7.'
+  successful-reward-collect-all: '&aTodas recompensas foram coletadas com sucesso!'
+  without-rewards: '&cVocê não possui recompensas para coletar!'
+  key-used: '&f{amount} &7chaves foram depositadas! Use &f/crates &7para abrí-las.'
+
+Sounds:
+  activate:
+    use: true
+    sound: 'LEVEL_UP,3,3' # som,volume,pich
+  open:
+    use: true
+    sound: 'ORB_PICKUP,10,10'
+  collect:
+    use: true
+    sound: 'ENDERMAN_TELEPORT,10,10'

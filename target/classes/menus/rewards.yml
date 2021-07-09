@@ -1,0 +1,35 @@
+Nothing:
+  type: WEB
+  name: '&cVazio'
+  slot: 22
+
+Next-Page:
+  type: ARROW
+  name: '&aPróxima Página'
+  lore:
+    - '&7Clique para ver as'
+    - '&7próximas recompensas!'
+  slot: 26
+
+Previous-Page:
+  type: ARROW
+  name: '&cPágina Anterior'
+  lore:
+    - '&7Clique para ver as'
+    - '&7recompensas anteriores!'
+  slot: 18
+
+Inventory:
+  title: "Recompensas"
+  size: 54
+  reward-slots: 11, 12, 13, 14, 15
+  items:
+    1:
+      action: COLLECT_ALL
+      type: STORAGE_MINECART
+      glow: true
+      name: '&aColetar'
+      lore:
+        - '&7Clique para coletar'
+        - '&7suas recompensas!'
+      slot: 49
